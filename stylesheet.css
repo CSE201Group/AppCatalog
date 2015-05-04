@@ -1,0 +1,126 @@
+body{
+ background-image: url("bg.jpg");
+}
+
+
+.header h1,h4{
+color : White;
+text-align : center;
+}
+
+.header{
+width : auto; /* Using auto adjust the size, according to the page view*/
+
+border-width : 3px;
+
+
+}
+.search{
+
+}
+
+.table{
+width : auto;
+background-color = red;
+}
+
+.search p{
+text-align = left;
+}
+
+#menu ul {
+margin : 0px;
+padding : 0px;
+list-style-type: none;
+}
+
+#menu a {
+display : block;
+width : auto;
+color : black;
+
+text-decoration : none;
+text-align:	center;
+}
+
+#menu a : hover{
+background-color :  #00ff00;
+}
+#menu li{
+float : left;
+margin-right : 2.0em;
+}
+
+#navMenu{
+margin : 0;
+padding: 0;
+}
+#navMenu ul {
+margin : 0;
+padding: 0;
+line-height : 20px;
+}
+
+#navMenu li{
+margin : 0;
+padding: 0;
+list-item: none;
+float: left;
+position : relative;
+}
+
+#navMenu ul li a {
+text-align : center;
+text-decoration: none;
+height : 30px;
+width : 150px;
+display : block;
+}
+
+#naveMenu ul ul {
+positon : absolute
+visibility: hidden;
+top : 30px;
+
+}
+
+#naveMen ul li : hover ul {
+visibility: visible;
+}
+
+#sidebar{
+float : right;
+width : 100%;
+
+}
+
+
+.rect{
+position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;  
+  margin-left:-100px;
+  background-color :  #00ff00;}
+  
+  .textbox {
+  position:absolute;
+  top:30%;
+  left:30%;
+  margin-top:-50px;  
+  margin-left:-100px;
+  background-color :  #00ff00;
+  
+  
+  
+  }
+  
+ form { width: 400px; }
+
+label { float: left; width: 150px; }
+
+input[type=text] { float: left; width: 250px; }
+
+.form {
+position : right;
+}
